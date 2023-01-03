@@ -7,14 +7,14 @@ Gem::Specification.new do |spec|
   spec.email         = ["patrick.marsceill@gmail.com", "matt@matthewwang.me"]
 
   spec.summary       = %q{A modern, highly customizable, and responsive Jekyll theme for documention with built-in search.}
-  spec.homepage      = "https://github.com/just-the-docs/just-the-docs"
+  spec.homepage      = "https://webnbiz.github.io/"
   spec.license       = "MIT"
-  spec.metadata      = {
-    "bug_tracker_uri"   => "https://github.com/just-the-docs/just-the-docs/issues",
-    "changelog_uri"     => "https://github.com/just-the-docs/just-the-docs/blob/main/CHANGELOG.md",
-    "documentation_uri" => "https://just-the-docs.github.io/just-the-docs/",
-    "source_code_uri"   => "https://github.com/just-the-docs/just-the-docs",
-  }
+  #spec.metadata      = {
+  #  "bug_tracker_uri"   => "https://github.com/just-the-docs/just-the-docs/issues",
+  #  "changelog_uri"     => "https://github.com/just-the-docs/just-the-docs/blob/main/CHANGELOG.md",
+  #  "documentation_uri" => "https://just-the-docs.github.io/just-the-docs/",
+  #  "source_code_uri"   => "https://github.com/just-the-docs/just-the-docs",
+  #}
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r{^(assets|bin|_layouts|_includes|lib|Rakefile|_sass|LICENSE|README|CHANGELOG|favicon)}i) }
   spec.executables   << 'just-the-docs'
