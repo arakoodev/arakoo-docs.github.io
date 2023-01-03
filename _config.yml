@@ -44,7 +44,7 @@ exclude:
    - README.md
 
 # Set a path/url to a logo that will be displayed instead of the title
-#logo: "/assets/images/just-the-docs.png"
+#logo: "/assets/images/logo.webp"
 
 # Enable or disable the site search
 # Supports true (default) or false
@@ -156,6 +156,7 @@ ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (t
 
 plugins:
  - jekyll-seo-tag
+ - jekyll-paginate
 
 kramdown:
   syntax_highlighter_opts:
@@ -171,3 +172,6 @@ compress_html:
   profile: false
   # ignore:
   #   envs: all
+
+paginate: 2
+paginate_path: "/blog/page:num/"
