@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["patrick.marsceill@gmail.com", "matt@matthewwang.me"]
 
   spec.summary       = %q{A modern, highly customizable, and responsive Jekyll theme for documention with built-in search.}
-  spec.homepage      = "https://webnbiz.github.io/"
+  spec.homepage      = ""
   spec.license       = "MIT"
   #spec.metadata      = {
   #  "bug_tracker_uri"   => "https://github.com/just-the-docs/just-the-docs/issues",
