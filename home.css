@@ -10,9 +10,7 @@
 .container {
 	display: flex;
 	padding: 0.3rem 0.5rem;
-	/* background-color:#190902; */
-  
-	/* border-radius:4%; */
+
 }
 
 .header {
@@ -77,5 +75,5 @@ navbar ul {
 }
 
 .side-bar{
-	
+ background-color: white;
 }
