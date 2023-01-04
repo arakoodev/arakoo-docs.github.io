@@ -107,21 +107,21 @@ navbar ul {
 
 .child h1{
 	color: aliceblue;
-	padding: 15px;
+	padding: 0 10px;
 	font-size: 55px;
 	text-align: justify;
 }
 
 .child p, .child li{
 	color: #fbf0df;
-	padding: 10px;
+	padding: 5px 10px;
 	font-size: 17px;
 	text-align: justify;
 }
 
 @media screen and (max-width: 992px) {
 	.mainareahome {
-		height: 750px;
+		height: 700px;
 		flex-direction: column;
 	
 		/* overflow: hidden; */
