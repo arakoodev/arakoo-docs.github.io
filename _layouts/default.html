@@ -4,9 +4,29 @@ layout: table_wrappers
 
 <!DOCTYPE html>
 
-<html lang="{{ site.lang | default: 'en-US' }}">
+
 {% include head.html %}
+
+
 <body>
+
+  <div id="centermain">
+    <div id="center">
+    <header class="container header">
+  
+      <a class="logo" href="/"><img src="/assets/images/logo.webp" alt=""></a>
+      <nav class="header-nav container">
+        <a href="/">Home</a>
+        <a href="/blog">Blog</a>
+        <a href="/docs">Docs</a>
+        <!-- <a href="#">Github</a> -->
+      </nav>
+      
+    </header></div></div>
+
+
+  <html lang="{{ site.lang | default: 'en-US' }}">
+  
   <a class="skip-to-main" href="#main-content">Skip to main content</a>
   <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
     <symbol id="svg-link" viewBox="0 0 24 24">
@@ -42,8 +62,11 @@ layout: table_wrappers
     {% include icons/external_link.html %}
     {% include icons/code_copy.html %}
   </svg>
+  
+  
 
   <div class="side-bar">
+    
     <div class="site-header">
       <a href="{{ '/' | relative_url }}" class="site-title lh-tight">{% include title.html %}</a>
       <a href="#" id="menu-button" class="site-button">
@@ -238,5 +261,7 @@ layout: table_wrappers
     window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
   </script>
   {% endif %}
+
+  
 </body>
 </html>

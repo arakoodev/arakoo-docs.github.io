@@ -1,9 +1,12 @@
 #center{
   max-width: 1104px;
   margin: 0 auto;
+  
 }
 
-#centermain{background-color:#190902;}
+#centermain{
+  background-color:#190902;
+}
 .container {
 	display: flex;
 	padding: 0.3rem 0.5rem;
@@ -70,5 +73,9 @@ navbar ul {
 }
 
 .side-bar, .main{
-  padding-top: 30px;
+  padding-top: 20px;
+}
+
+.side-bar{
+	
 }
