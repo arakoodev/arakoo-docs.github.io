@@ -1,11 +1,17 @@
+#center{
+  max-width: 1104px;
+  margin: 0 auto;
+}
 
+#centermain{background-color:#190902;}
 .container {
 	display: flex;
 	padding: 0.3rem 0.5rem;
-	background-color:#190902;
+	/* background-color:#190902; */
   
 	/* border-radius:4%; */
 }
+
 .header {
 	position: relative;
 	z-index: 10;
@@ -17,7 +23,7 @@
 	font-weight: 900;
 	letter-spacing: 2px;
 	line-height: 2;
-  
+  height: 110px;
 }
 	.logo {
 		text-decoration: none;
@@ -61,4 +67,8 @@
 navbar ul {
   display: flex;
   align-items: center;
+}
+
+.side-bar, .main{
+  padding-top: 30px;
 }
