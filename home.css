@@ -79,7 +79,7 @@ navbar ul {
 }
 
 .mainhome{
-	max-width: 60%;
+	max-width: 70%;
 	margin: 0 auto;
 }
 
@@ -88,29 +88,44 @@ navbar ul {
 
 	height: 500px;
 	background-color: #190902;
-
-}
-
-
-.mainareahome{
 	display: flex;
+	flex-direction: row;
+	overflow: hidden;
 }
+
 .child{
 	width: 50%;
 	height: 100%;
 	background: #190902;
-	text-align: center;
+	text-align: justify;
 	box-sizing: border-box;
-	
+	padding-top: 80px;
+	width: 500px;
+	margin: 0 auto;
+	/* overflow: hidden; */
 }
 
 .child h1{
 	color: aliceblue;
 	padding: 15px;
-	font-size: 50px;
+	font-size: 55px;
+	text-align: justify;
 }
 
-.child p{
-	
-	
+.child p, .child li{
+	color: #fbf0df;
+	padding: 10px;
+	font-size: 17px;
+	text-align: justify;
 }
+
+@media screen and (max-width: 992px) {
+	.mainareahome {
+		height: 750px;
+		flex-direction: column;
+	
+		/* overflow: hidden; */
+	
+	} .child{padding:20px;}
+  }
+
