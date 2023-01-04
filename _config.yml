@@ -173,5 +173,5 @@ compress_html:
   # ignore:
   #   envs: all
 
-paginate: 2
-paginate_path: "/blog/page:num/"
+#paginate: 1
+#paginate_path: "/blog/page:num/"
