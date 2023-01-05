@@ -101,6 +101,7 @@ navbar ul {
 	box-sizing: border-box;
 	padding-top: 80px;
 	width: 500px;
+	max-width: 100%;
 	margin: 0 auto;
 	/* overflow: hidden; */
 }
@@ -110,6 +111,7 @@ navbar ul {
 	padding: 0 10px;
 	font-size: 55px;
 	text-align: justify;
+	
 }
 
 .child p, .child li{
@@ -126,6 +128,12 @@ navbar ul {
 	
 		/* overflow: hidden; */
 	
-	} .child{padding:20px;}
+	}
+	.child{padding:20px;}
+
+	.mainhome{
+		max-width: 80%;
+		margin: 0 auto;
+	}
   }
 
