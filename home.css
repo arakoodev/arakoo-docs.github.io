@@ -41,7 +41,7 @@
 	}
 	.header-nav {
 		align-items: center;
-  
+        
    
 	}
 		.header-nav a {
@@ -149,7 +149,10 @@ navbar ul {
     appearance: none;
     background: none;
     outline: none;
-    border: none
+    border: none;
+	bottom: 5px;
+	right: 7px;
+	
 }
 
 .hamburger .bar,
@@ -191,6 +194,7 @@ navbar ul {
     padding-top: 120px;
     -webkit-transition: 0.4s;
     transition: 0.4s;
+	
 }
 
 .mobile-nav.is-active {
@@ -206,7 +210,8 @@ navbar ul {
     padding: 12px 16px;
     background-color: #1f103F;
     color: #FFF;
-    text-decoration: none
+    text-decoration: none;
+	
 }
 
 .mobile-nav a:hover {
@@ -215,18 +220,19 @@ navbar ul {
 
 @media (min-width: 600px) {
     .mobile-nav {
-        display: none
+        display: none;
     }
 
     .hamburger {
-        display: none
+        display: none;
     }
 }
   
 @media (max-width: 600px) {
     .header-nav {
-        display: none
+        display: none;
     }
 
 }
   
+
