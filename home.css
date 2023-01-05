@@ -180,21 +180,21 @@ navbar ul {
 }
 
 .mobile-nav {
-    position: fixed;
-    top: 0;
+    position:fixed ;
+    /* top: 0;  */
     left: 100%;
     width: 100%;
     min-height: 100vh;
     display: block;
     z-index: 98;
-    background-color: #12002F;
+    background-color: #2a1842;
     padding-top: 120px;
     -webkit-transition: 0.4s;
-    transition: 0.4s
+    transition: 0.4s;
 }
 
 .mobile-nav.is-active {
-    left: 0
+    left: 0;
 }
 
 .mobile-nav a {
@@ -230,4 +230,3 @@ navbar ul {
 
 }
   
-
