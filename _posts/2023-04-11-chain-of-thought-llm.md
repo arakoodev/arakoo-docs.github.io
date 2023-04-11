@@ -1,6 +1,6 @@
 ﻿---
 title: Why chain-of-thought is the most important innovation in Large Language Models.
-date: 2023-04-1
+date: 2023-04-11
 author: Admin
 excerpt: A key innovation in LLMs is the concept of chain-of-thought, which allows models to comprehend and generate text more coherently
 layout: post
