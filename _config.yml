@@ -1,6 +1,6 @@
 title: Arakoo.com
 description: Tasty Java
-theme: just-the-docs
+#theme: just-the-docs
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.arakoo.com/" # the base hostname & protocol for your site, e.g. http://example.com
 
