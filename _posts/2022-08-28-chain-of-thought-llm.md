@@ -5,7 +5,7 @@ author: Admin
 excerpt: A key innovation in LLMs is the concept of chain-of-thought, which allows models to comprehend and generate text more coherently
 layout: post
 permalink: /chain-of-thought-llm
-image: images/chain.jpeg
+image: /images/chain.jpeg
 category:
   - LLM
 tags:
