@@ -12,7 +12,7 @@ title: Arakoo.com
 description: Tasty Java
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.arakoo.com/" # the base hostname & protocol for your site, e.g. http://example.com
-
+remote_theme: just-the-docs/just-the-docs@v0.4.0.rc1
 permalink: pretty
 
 exclude:
