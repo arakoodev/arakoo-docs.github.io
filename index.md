@@ -6,7 +6,7 @@ description: "Just the Docs is a responsive Jekyll theme with built-in search th
 ---
 
 # Tasty Java
-{: .fs-9 }
+
 
 Arakoo is Tasty Java
 {: .fs-6 .fw-300 }
